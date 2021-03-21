@@ -5,12 +5,13 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.PrintStream;
 import java.util.Properties;
-import crypto.Hash;
-import crypto.OneTimeKey;
-import crypto.RSA;
-import crypto.RSA.PrivateKey;
-import crypto.RSA.PublicKey;
-import crypto.SSLSocket;
+
+import security.Hash;
+import security.OneTimeKey;
+import security.RSA;
+import security.SSLSocket;
+import security.RSA.PrivateKey;
+import security.RSA.PublicKey;
 
 public class Client {
 	private SSLSocket s;

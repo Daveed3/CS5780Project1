@@ -6,10 +6,10 @@ import java.io.OutputStream;
 import java.io.PrintStream;
 import java.util.Properties;
 
-import crypto.RSA;
-import crypto.RSA.PrivateKey;
-import crypto.SSLServerSocket;
-import crypto.SSLSocket;
+import security.RSA;
+import security.SSLServerSocket;
+import security.SSLSocket;
+import security.RSA.PrivateKey;
 
 public class Server implements Runnable {
 	private RSA.PrivateKey serverPrivateKey;
